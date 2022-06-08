@@ -94,6 +94,26 @@ header span{
     width: 43%;
     height: 20%;
 }
+@media (min-width:320px) and (max-width:474px){
+
+    .cross h4{
+
+        font-size: 15px;
+    }
+    
+    .cross2 h4{
+
+        font-size: 14px;
+    }
+    .box3 h4{
+
+        font-size: 14px;
+    }
+    .box h4{
+
+        font-size: 17px;
+    }
+}
 
 @media (min-width:768px) and (max-width:991px){
 
