@@ -2,10 +2,13 @@
 
     src: url(./font/nasim-web/nasim.ttf);
     font-family: IRAN;
+    src: url(./font/profassional_font/lato/Lato-Reg.ttf);
+    font-family: Myfont;
 }
 
 *{
     font-family: IRAN;
+    font-family: Myfont;
     direction: rtl;
     
 }
@@ -64,7 +67,6 @@
     width: 63%;
     height: 100%;
     transition: 1s;
-    cursor: pointer;
 
 }
 header{
@@ -159,8 +161,13 @@ header span{
     direction: ltr !important;
     font-size: 20px;
 }
+
 @media (min-width:320px) and (max-width:474px){
 
+    .another .header-titr{
+
+        font-size: 10px !important;  
+    }
     .cross h4{
 
         font-size: 15px;
@@ -186,6 +193,34 @@ header span{
     .box h4{
 
         font-size: 17px;
+    }
+}
+@media (min-width:475px) and (max-width:550px){
+
+    .another .header-titr{
+
+        font-size: 14px !important;  
+    }
+}
+@media (min-width:570px) and (max-width:730px){
+
+    .another .header-titr{
+
+        font-size: 17px !important;  
+    }
+}
+@media (min-width:731px) and (max-width:800px){
+
+    .another .header-titr{
+
+        font-size: 17px !important;  
+    }
+}
+@media (min-width:991px) and (max-width:1200px){
+
+    .another .header-titr{
+
+        font-size: 17px !important;  
     }
 }
 @media (min-width:768px) and (max-width:991px){
